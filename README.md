@@ -1,2 +1,2 @@
 # DAC7611
-Arduino Library for the DAC7611 from Texas instruments
+A library based on the Arduino Platform to use the 12bit DAC by Texas Instruments.
