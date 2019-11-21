@@ -22,7 +22,7 @@ void DAC7611::analogWrite(uint16_t value)
 {
   
     // Prepare the buffer make sure value is smaller than 4095
-    value = (value & 0xfff);
+    value = (value & 0xfff) >> 1;
 
     //make shift register invisible for dac register
     digitalWrite(_ld, HIGH); 
