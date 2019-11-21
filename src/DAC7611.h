@@ -6,9 +6,9 @@
 class DAC7611
 {
   private:
-    const uint8_t _cs;  //chip  select
-    const uint8_t _ld;  //latch
-    const uint8_t _clr; //clear output
+    uint8_t _cs;  //chip  select
+    uint8_t _ld;  //latch
+    uint8_t _clr; //clear output
     
   public:
     DAC7611(uint8_t cs, uint8_t ld, uint8_t clr);
