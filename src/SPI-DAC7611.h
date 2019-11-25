@@ -1,5 +1,5 @@
-#ifndef SPI-DAC7611_H
-#define SPI-DAC7611_H
+#ifndef SPIDAC7611_H
+#define SPIDAC7611_H
 
 #include<Arduino.h>
 
