@@ -21,7 +21,7 @@ next initialise the dac using begin() and send data
 analogWrite(int value)
 */
 
-#include <DAC7611.h>
+#include <SPI-DAC7611.h>
 
 uint8_t cs = 8;
 uint8_t ld = 3;
