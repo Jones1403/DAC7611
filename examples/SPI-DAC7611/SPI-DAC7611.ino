@@ -46,6 +46,11 @@ void loop()
     dac.analogWrite(dacVal);  //send values to DAC
     Serial.print("DAC Value is : ");  
     Serial.println(dacVal);
+	
+    while(Serial.available()){
+      char a = Serial.read();       //read until buffer is empty
+    }
+	
   }
   delay(1000);
 }
